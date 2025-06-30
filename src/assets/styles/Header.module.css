@@ -1,0 +1,147 @@
+.headerSection {
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  padding: 2rem 0;
+}
+
+.headerContent {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  width: 80%;
+  max-width: 800px;
+}
+
+.headerTextContent {
+  flex-grow: 1;
+}
+
+.profilePhoto {
+  width: 4.8rem;
+  height: 4.8rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.headerName {
+  margin: 0 0 0.5rem 0;
+  padding: 0;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: #EAEAEA;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerDescription {
+  margin: 0;
+  padding: 0;
+  font-size: 1.4rem;
+  font-weight: lighter;
+  color: #A0A0A0;
+  letter-spacing: -0.5px;
+}
+
+.headerUniversity {
+  color: #EAEAEA;
+}
+
+.headerIcons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.iconButton {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  color: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.mailContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.copiedPopup {
+  position: absolute;
+  bottom: 170%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #EAEAEA;
+  color: #000000;
+  font-family: 'Satoshi', sans-serif;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  white-space: nowrap;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  animation: fadeInOut 2s ease-in-out;
+}
+
+.copiedPopup::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 5px;
+  border-style: solid;
+  border-color: #EAEAEA transparent transparent transparent;
+}
+
+.githubIcon,
+.mailIcon,
+.linkedinIcon {
+  font-size: 1.4rem;
+  color: #EAEAEA;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.linkedinIcon {
+  stroke-width: 17;
+}
+
+.githubIcon:hover,
+.mailIcon:hover,
+.linkedinIcon:hover {
+  color: #FFFFFF;
+  transform: translateY(-3px);
+  filter: drop-shadow(0 0 4px #FFFFFF);
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(5px);
+  }
+
+  15% {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+
+  85% {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(5px);
+  }
+}
