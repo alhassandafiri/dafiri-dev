@@ -1,0 +1,30 @@
+.footerSection {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0;
+  background-color: #000;
+  border-top: 1px solid #2a2a2a;
+}
+
+.footerContent {
+  width: 80%;
+  max-width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.copyright {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: lighter;
+  color: #a0a0a0;
+}
+
+@media (max-width: 550px) {
+  .footerContent {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+}
