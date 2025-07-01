@@ -1,25 +1,30 @@
 import styles from '../../../assets/styles/Timeline.module.css';
 
-const timelineData = [{
-
-  year: '2024 - present',
-  title: 'placeholder',
-  description: 'Developed and maintained responsive websites for various clients, focusing on React, Next.js, and modern CSS practices.'
+const timelineData = [
+{
+  year: 'April 2025 - Present',
+  title: 'Open Source Contributions',
+  description: 'contributed to multiple open source projects'
 },
 {
-  year: '2022',
-  title: 'university of placeholder',
-  description: 'completed my bachelor of placeholder at university of placeholder'
+  year: 'September 2024 - May 2025',
+  title: 'First Year',
+  description: 'top of class in multiple modules'
 },
 {
-  year: '2021',
-  title: 'university of placeholder',
-  description: 'completed my bachelor of placeholder at university of placeholder'
+  year: 'May 2024 -  July 2024',
+  title: 'Volunteering at Web Development for good',
+  description: 'created multiple web pages and optimised functionality by 20%'
 },
 {
-  year: '2021',
-  title: 'university of placeholder',
-  description: 'completed my bachelor of placeholder at university of placeholder'
+  year: 'September 2023 - May 2024',
+  title: 'Foundation Year at University',
+  description: 'achieved top marks in multiple modules and a first class'
+},
+{
+  year: 'September 2022 - June 2023',
+  title: 'High School',
+  description: 'graduated top of my class with a 4.00 GPA'
 },
 ];
 
