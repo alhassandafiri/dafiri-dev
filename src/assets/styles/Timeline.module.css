@@ -76,14 +76,14 @@
 
 .timelineItemTitle {
   margin: 0;
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   font-weight: 500;
   color: #EAEAEA;
 }
 
 .timelineItemDesc {
   margin: 0.5rem 0 0 0;
-  font-size: 0.95rem;
+  font-size: 1.15rem;
   font-weight: 350;
   color: #a0a0a0;
   line-height: 1.6;
