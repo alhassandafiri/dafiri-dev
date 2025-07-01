@@ -1,0 +1,21 @@
+.timelineSection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+  padding: 1rem 0;
+}
+
+.timelineContent {
+  width: 80%;
+  max-width: 800px;
+  text-align: left;
+}
+
+.timelineTitle {
+  margin: 0 0 2rem 0;
+  padding: 0;
+  font-size: 1.5rem;
+  font-weight: 450;
+  color: #EAEAEA;
+}
