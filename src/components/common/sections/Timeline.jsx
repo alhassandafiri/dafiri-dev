@@ -1,33 +1,5 @@
 import styles from '../../../assets/styles/Timeline.module.css';
-
-const timelineData = [
-{
-  year: 'April 2025 - Present',
-  title: 'Open Source Contributions',
-  description: 'contributed to multiple open source projects'
-},
-{
-  year: 'September 2024 - May 2025',
-  title: 'First Year',
-  description: 'top of class in multiple modules'
-},
-{
-  year: 'May 2024 -  July 2024',
-  title: 'Volunteering at Web Development for good',
-  description: 'created multiple web pages and optimised functionality by 20%'
-},
-{
-  year: 'September 2023 - May 2024',
-  title: 'Foundation Year at University',
-  description: 'achieved top marks in multiple modules and a first class'
-},
-{
-  year: 'September 2022 - June 2023',
-  title: 'High School',
-  description: 'graduated top of my class with a 4.00 GPA'
-},
-];
-
+import { timelineData } from '../../../data/data'
 
 function Timeline() {
   return(
@@ -49,9 +21,6 @@ function Timeline() {
             </div>
           ))}
         </div>
-
-
-
       </div>
     </section>
   )

@@ -1,26 +1,6 @@
 import styles from '../../../assets/styles/Projects.module.css';
-import ProjectsCard from './ui/ProjectsCard'
-
-const projectsData = [
-  {
-  title: 'Portfolio Website',
-  description: 'A clean, minimalist portfolio built with React and CSS Modules to showcase my skills and projects. Designed to be fully responsive and performant.',
-  technologies: ['React', 'Vite', 'CSS Modules'],
-  githubLink: 'https://github.com/alhassandafiri',
-  liveLink: 'http://localhost:5173/',
-  progress: 50
-},
-
-{
-  title: 'Currency Conversion Calculator',
-  description: 'A modern website that allows you to view the current currency exchange rate with over 200 supported currencies.',
-  technologies: ['React', 'Tailwind', 'AWS', 'Yahoo APIs'],
-  githubLink: 'https://github.com/alhassandafiri',
-  liveLink: 'http://localhost:5173/',
-  progress: 0
-},
-];
-
+import { projectsData } from '../../../data/data';
+import ProjectsCard from './ui/ProjectsCard';
 
 const Projects = () => {
   return(
