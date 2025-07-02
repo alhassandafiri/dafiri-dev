@@ -50,7 +50,7 @@
 .timelineMarker {
   position: absolute;
   top: 5px;
-  left: -15px;
+  left: 1px;
   height: 18px;
   width: 18px;
   background-color: #a0a0a0;
@@ -111,5 +111,9 @@
   }
   .timelineItemDesc {
     font-size: 1.15rem;
+  }
+
+  .timelineMarker {
+    left: -15px;
   }
 }
