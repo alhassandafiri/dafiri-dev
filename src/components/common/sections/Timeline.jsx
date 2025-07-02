@@ -1,4 +1,4 @@
-import styles from '../../../assets/styles/Timeline.module.css';
+import styles from '../../../assets/styles/Timeline.module.scss';
 import { timelineData } from '../../../data/data'
 
 function Timeline() {

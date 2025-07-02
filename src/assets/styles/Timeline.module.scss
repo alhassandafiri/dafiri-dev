@@ -1,13 +1,15 @@
+@import './breakpoints';
+
 .timelineSection {
   width: 100%;
   display: flex;
   justify-content: center;
   background-color: #000;
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
 }
 
 .timelineContent {
-  width: 80%;
+  width: 90%;
   max-width: 800px;
   text-align: left;
 }
@@ -22,7 +24,7 @@
 
 .timelineContainer {
   position: relative;
-  padding-left: 2.5rem;
+  padding-left: 1.5rem;
 }
 
 .timelineContainer::before {
@@ -63,7 +65,7 @@
 }
 
 .timelineItemContent {
-  padding-left: 45px;
+  padding-left: 30px;
 }
 
 .timelineYear {
@@ -76,15 +78,38 @@
 
 .timelineItemTitle {
   margin: 0;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   font-weight: 385;
   color: #EAEAEA;
 }
 
 .timelineItemDesc {
   margin: 0.5rem 0 0 0;
-  font-size: 1.15rem;
+  font-size: 1rem;
   font-weight: 350;
   color: #a0a0a0;
   line-height: 1.6;
+}
+
+@include respond-to('md') {
+
+  .timelineSection {
+    margin-bottom: 10rem;
+  }
+
+  .timelineContent {
+    width: 80%;
+  }
+  .timelineContainer {
+    padding-left: 2.5rem;
+  }
+  .timelineItemContent {
+    padding-left: 45px;
+  }
+  .timelineItemTitle {
+    font-size: 1.25rem;
+  }
+  .timelineItemDesc {
+    font-size: 1.15rem;
+  }
 }

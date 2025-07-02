@@ -1,8 +1,10 @@
+@import './breakpoints';
+
 .card {
   background-color: #171717;
   border: 1px solid #2a2a2a;
   border-radius: 8px;
-  padding: 1.25rem;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -41,7 +43,7 @@
 
 .cardHeader h3 {
   margin: 0;
-  font-size: 1.15rem;
+  font-size: 1.05rem;
   font-weight: 500;
   color: #EAEAEA;
   white-space: nowrap;
@@ -51,7 +53,7 @@
 
 .cardBody p {
   margin: 0;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   font-weight: 350;
   color: #a0a0a0;
   line-height: 1.5;
@@ -105,4 +107,16 @@
 
 .notStarted {
   color: #e74c3c;
+}
+
+@include respond-to('md') {
+  .card {
+    padding: 1.25rem;
+  }
+  .cardHeader h3 {
+    font-size: 1.15rem;
+  }
+  .cardBody p {
+    font-size: 0.95rem;
+  }
 }

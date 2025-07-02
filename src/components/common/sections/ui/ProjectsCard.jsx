@@ -1,6 +1,6 @@
 import { FiExternalLink, FiGithub } from 'react-icons/fi';
 import { RiProgress4Fill, RiProgress8Fill, RiProgress8Line   } from "react-icons/ri";
-import styles from '../../../../assets/styles/ProjectsCard.module.css';
+import styles from '../../../../assets/styles/ProjectsCard.module.scss';
 
 const ProjectsCard = ({ title, description, technologies, githubLink, liveLink, progress }) => {
 

@@ -1,13 +1,15 @@
+@import './breakpoints';
+
 .projectsSection {
   width: 100%;
   display: flex;
   justify-content: center;
   background-color: #000;
-  padding: 5rem 0 3rem 0;
+  padding: 2rem 0;
 }
 
 .projectsContent {
-  width: 80%;
+  width: 90%;
   max-width: 800px;
   text-align: left;
 }
@@ -27,7 +29,15 @@
   grid-template-columns: 1fr;
 }
 
-@media (min-width: 768px) {
+@include respond-to('md') {
+  .projectsSection {
+    padding: 3rem 0 3rem 0;
+  }
+
+  .projectsContent {
+    width: 80%;
+  }
+
   .projectsGrid {
     grid-template-columns: repeat(2, 1fr);
   }

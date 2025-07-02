@@ -1,4 +1,4 @@
-import styles from '../../../assets/styles/Projects.module.css';
+import styles from '../../../assets/styles/Projects.module.scss';
 import { projectsData } from '../../../data/data';
 import ProjectsCard from './ui/ProjectsCard';
 

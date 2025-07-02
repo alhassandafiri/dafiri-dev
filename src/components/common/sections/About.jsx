@@ -1,4 +1,4 @@
-import styles from '../../../assets/styles/About.module.css';
+import styles from '../../../assets/styles/About.module.scss';
 
 
 function About() {
