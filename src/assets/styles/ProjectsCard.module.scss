@@ -85,11 +85,48 @@
 }
 
 .progressSection {
+  position: relative;
   margin-left: auto;
   display: flex;
   align-items: center;
   gap: 0.5rem;
   flex-shrink: 0;
+  &:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0) translateX(-50%);
+  }
+}
+
+.tooltip {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(5px);
+  margin-bottom: 8px;
+  background-color: #EAEAEA;
+  color: #000000;
+  font-family: 'Satoshi', sans-serif;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  white-space: nowrap;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 10;
+  &::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 5px;
+    border-style: solid;
+    border-color: #EAEAEA transparent transparent transparent;
+  }
 }
 
 .progressIcon {

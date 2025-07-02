@@ -56,7 +56,9 @@ const ProjectsCard = ({ title, description, technologies, githubLink, liveLink, 
       </div>
       {typeof progress === 'number' && (
         <div className={styles.progressSection}>
-          <IconComponent className={`${styles.progressIcon} ${styles[colourClass]}`}  title={tooltipText} />
+          <IconComponent className={`${styles.progressIcon} ${styles[colourClass]}`}/>
+          
+          <span className={styles.tooltip}>{tooltipText}</span>
         </div>
       )}
     </div>
