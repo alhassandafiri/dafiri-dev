@@ -26,26 +26,26 @@ export const timelineData = [
 {
   year: 'April 2025 - Present',
   title: 'Open Source Contributions',
-  description: 'contributed to multiple open source projects'
+  description: 'Contributed to multiple open source projects'
 },
 {
   year: 'September 2024 - May 2025',
-  title: 'First Year',
-  description: 'top of class in multiple modules'
+  title: 'First Year of University',
+  description: 'Top of class in multiple modules'
 },
 {
   year: 'May 2024 -  July 2024',
   title: 'Volunteering at Web Development for good',
-  description: 'created multiple web pages and optimised functionality by 20%'
+  description: 'Created multiple web pages and optimised functionality by 20%'
 },
 {
   year: 'September 2023 - May 2024',
-  title: 'Foundation Year at University',
-  description: 'achieved top marks in multiple modules and a first class'
+  title: 'Foundation Year of University',
+  description: 'Achieved top marks in multiple modules and a first class'
 },
 {
   year: 'September 2022 - June 2023',
   title: 'High School',
-  description: 'graduated top of my class with a 4.00 GPA'
+  description: 'Graduated top of my class with a 4.00 GPA'
 },
 ];
