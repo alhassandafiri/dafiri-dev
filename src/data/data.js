@@ -31,7 +31,7 @@ export const timelineData = [
 {
   year: 'September 2024 - May 2025',
   title: 'First Year of University',
-  description: 'Top of class in multiple modules'
+  description: 'Achieved a first class with top marks in most modules.'
 },
 {
   year: 'May 2024 -  July 2024',
@@ -41,7 +41,7 @@ export const timelineData = [
 {
   year: 'September 2023 - May 2024',
   title: 'Foundation Year of University',
-  description: 'Achieved top marks in multiple modules and a first class'
+  description: 'Achieved a first class.'
 },
 {
   year: 'September 2022 - June 2023',
