@@ -5,16 +5,16 @@ export const projectsData = [
   technologies: ['React', 'Vite', 'CSS Modules'],
   githubLink: 'https://github.com/alhassandafiri',
   liveLink: 'http://localhost:5173/',
-  progress: 50
+  progress: 100
 },
 
 {
-  title: 'Currency Conversion Calculator',
-  description: 'A modern website that allows you to view the current currency exchange rate with over 200 supported currencies.',
-  technologies: ['React', 'Tailwind', 'AWS', 'Yahoo APIs'],
+  title: ' ratewise (Currency Conversion)',
+  description: 'A modern website that allows you to easily convert currencies and view the current currency exchange rate with over 200 supported currencies.',
+  technologies: ['React', 'Laravel', 'CSS Modules'],
   githubLink: 'https://github.com/alhassandafiri',
   liveLink: 'http://localhost:5173/',
-  progress: 0
+  progress: 25
 },
 ];
 
