@@ -9,8 +9,8 @@ export const projectsData = [
 },
 
 {
-  title: ' ratewise (Currency Conversion)',
-  description: 'A modern website that allows you to easily convert currencies and view the current currency exchange rate with over 200 supported currencies.',
+  title: ' ratewise.',
+  description: 'A modern website that allows you to easily convert currencies, view live exchange rates and compare the history of two currencies over a 5 year time span.',
   technologies: ['React', 'Laravel', 'CSS Modules'],
   githubLink: 'https://github.com/alhassandafiri',
   liveLink: 'http://localhost:5173/',
