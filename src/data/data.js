@@ -2,7 +2,7 @@ export const projectsData = [
   {
   title: 'Portfolio Website',
   description: 'A clean, minimalist portfolio built with React and CSS Modules to showcase my skills and projects. Designed to be fully responsive and performant.',
-  technologies: ['React', 'Vite', 'CSS Modules'],
+  technologies: ['React (JS)', 'Vite', 'CSS Modules'],
   githubLink: 'https://github.com/alhassandafiri',
   liveLink: 'http://localhost:5173/',
   progress: 100
@@ -10,11 +10,11 @@ export const projectsData = [
 
 {
   title: ' ratewise.',
-  description: 'A modern website that allows you to easily convert currencies, view live exchange rates and compare the history of two currencies over a 5 year time span.',
-  technologies: ['React', 'Laravel', 'CSS Modules'],
+  description: 'A sleek, real-time currency converter and financial data visualizer. Instantly convert currencies, browse live exchange rates, and analyze historical data with interactive charts.',
+  technologies: ['React (JS)', 'Laravel', 'Recharts', 'CSS Modules', 'Framer Motion'],
   githubLink: 'https://github.com/alhassandafiri',
-  liveLink: 'http://localhost:5173/',
-  progress: 25
+  liveLink: 'http://localhost:5175/',
+  progress: 100
 },
 ];
 
@@ -31,7 +31,7 @@ export const timelineData = [
 {
   year: 'September 2024 - May 2025',
   title: 'First Year of University',
-  description: 'Achieved a first class with top marks in most modules.'
+  description: 'Grade: First Class. Achieved highest in class marks in certain modules.'
 },
 {
   year: 'May 2024 -  July 2024',
@@ -41,7 +41,7 @@ export const timelineData = [
 {
   year: 'September 2023 - May 2024',
   title: 'Foundation Year of University',
-  description: 'Achieved a first class.'
+  description: 'Grade: First Class.'
 },
 {
   year: 'September 2022 - June 2023',
