@@ -3,7 +3,7 @@ export const projectsData = [
   title: 'Portfolio Website',
   description: 'A clean, minimalist portfolio built with React and CSS Modules to showcase my skills and projects. Designed to be fully responsive and performant.',
   technologies: ['React (JS)', 'Vite', 'CSS Modules'],
-  githubLink: 'https://github.com/alhassandafiri',
+  githubLink: 'https://github.com/alhassandafiri/personal-portfolio-website',
   liveLink: 'http://localhost:5173/',
   progress: 100
 },
@@ -12,7 +12,7 @@ export const projectsData = [
   title: ' ratewise.',
   description: 'A sleek, real-time currency converter and financial data visualizer. Instantly convert currencies, browse live exchange rates, and analyze historical data with interactive charts.',
   technologies: ['React (JS)', 'Laravel', 'Recharts', 'CSS Modules', 'Framer Motion'],
-  githubLink: 'https://github.com/alhassandafiri',
+  githubLink: 'https://github.com/alhassandafiri/currency-converter',
   liveLink: 'http://localhost:5175/',
   progress: 100
 },
