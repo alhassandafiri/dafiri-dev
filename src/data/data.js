@@ -16,6 +16,15 @@ export const projectsData = [
   liveLink: 'http://localhost:5175/',
   progress: 100
 },
+{
+  title: 'JobTrackr',
+  description: 'A modern job application tracking dashboard with a Kanban board interface, analytics, and responsive design. Track applications across different stages, view insights through charts, and manage your career search efficiently.',
+  technologies: ['React (JS)', 'Tailwind CSS', 'Laravel', 'PostgreSQL', 'Chart.js', 'React DnD'],
+  githubLink: 'https://github.com/alhassandafiri/jobtrackr',
+  liveLink: 'http://localhost:5173/', // replace with actual deployed URL later
+  progress: 0 // set to 100 when fully complete
+}
+
 ];
 
 
