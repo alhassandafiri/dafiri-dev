@@ -4,7 +4,6 @@ export const projectsData = [
   description: 'A clean, minimalist portfolio built with React and CSS Modules to showcase my skills and projects. Designed to be fully responsive and performant.',
   technologies: ['React.js', 'Vite', 'SCSS'],
   githubLink: 'https://github.com/alhassandafiri/personal-portfolio-website',
-  liveLink: 'http://localhost:5173/',
   progress: 100
 },
 
