@@ -26,7 +26,7 @@ function Header() {
       <div className={styles.headerContent}>
 
         <img
-        src='src/assets/images/pfp.png'
+        src='pfp.png'
         alt='a photo of me'
         className={styles.profilePhoto}
         />
