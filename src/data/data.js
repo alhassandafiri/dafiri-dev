@@ -28,19 +28,9 @@ export const projectsData = [
 ];
 export const timelineData = [
 {
-  year: 'April 2025 - Present',
-  title: 'Open Source Contributions',
-  description: 'Contributed to multiple open source projects'
-},
-{
   year: 'September 2024 - May 2025',
   title: 'First Year of University',
   description: 'Grade: First Class. Achieved highest in class marks in certain modules.'
-},
-{
-  year: 'May 2024 -  July 2024',
-  title: 'Volunteering at Web Development for good',
-  description: 'Created multiple web pages and optimised functionality by 20%'
 },
 {
   year: 'September 2023 - May 2024',
@@ -50,6 +40,11 @@ export const timelineData = [
 {
   year: 'September 2022 - June 2023',
   title: 'High School',
-  description: 'Graduated top of my class with a 4.00 GPA'
+  description: 'Graduated at the top of my class with a 4.00 GPA and was recognised for my academic excellence.'
+},
+{
+  year: '2020',
+  title: 'First line of code',
+  description: 'Started my programming journey after being encouraged by my peers in school.'
 },
 ];
