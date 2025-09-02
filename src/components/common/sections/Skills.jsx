@@ -26,7 +26,7 @@ const Skills = () => {
     const carousel = carouselRef.current;
     if (carousel && !isDragging) {
       if (carousel.scrollLeft >= carousel.scrollWidth / 2) {
-        carousel.scrollLeft = 0;
+        carousel.scrollLeft = 0.1;
       } else {
         carousel.scrollLeft += 0.5;
       }

@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 3rem 0 1.5rem 0; 
+  padding: 0 0 3rem 0; 
   background-color: #000;
 }
 
@@ -17,7 +17,7 @@
 
 .skillsTitle {
   margin: 0 0 2.5rem 0;
-  padding: 0;
+  padding-top: 2rem; 
   font-size: 1.5rem;
   font-weight: 450;
   color: #EAEAEA;
@@ -86,10 +86,14 @@
 
 @include respond-to('md') {
   .skillsSection {
-    padding: 4rem 0 2rem 0;
+    padding: 0 0 4rem 0;
   }
 
   .skillsContent {
     width: 80%;
+  }
+
+  .skillsTitle {
+    padding-top: 3rem;
   }
 }
