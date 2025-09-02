@@ -1,6 +1,6 @@
-import styles from '../../../assets/styles/Projects.module.scss';
-import { projectsData } from '../../../data/data';
-import ProjectsCard from './ui/ProjectsCard';
+import styles from './Projects.module.scss';
+import { projectsData } from '../../data/data';
+import ProjectsCard from '../ProjectsCard/ProjectsCard';
 
 const Projects = () => {
   return(

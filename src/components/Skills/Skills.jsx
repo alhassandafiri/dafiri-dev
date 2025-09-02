@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect, useCallback } from 'react';
-import styles from '../../../assets/styles/Skills.module.scss';
+import styles from './Skills.module.scss';
 import { SiJavascript, SiReact, SiLaravel, SiPhp, SiPython, SiTailwindcss, SiSass, SiPostgresql, SiGit, SiCss3 } from 'react-icons/si';
 import { FaJava } from 'react-icons/fa';
 import { FiDatabase } from 'react-icons/fi';

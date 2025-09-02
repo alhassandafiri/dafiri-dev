@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { FiGithub, FiMail } from "react-icons/fi";
 import { SlSocialLinkedin } from "react-icons/sl";
-import styles from '../../../assets/styles/Header.module.scss';
+import styles from './Header.module.scss';
 
 function Header() {
 
