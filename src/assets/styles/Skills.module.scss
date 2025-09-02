@@ -1,0 +1,90 @@
+@import './breakpoints';
+
+.skillsSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+  background-color: #000;
+}
+
+.skillsContent {
+  width: 90%;
+  max-width: 800px;
+  text-align: left;
+}
+
+.skillsTitle {
+  margin: 0 0 2.5rem 0;
+  padding: 0;
+  font-size: 1.5rem;
+  font-weight: 450;
+  color: #EAEAEA;
+  letter-spacing: -0.5px;
+}
+
+.carouselContainer {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  mask: linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%);
+  -webkit-mask: linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%);
+}
+
+.carouselTrack {
+  display: flex;
+  animation: scroll 30s linear infinite;
+  width: max-content;
+}
+
+.skillItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0.75rem;
+  padding: 0.75rem 1.25rem;
+  
+  background: transparent;
+  border: 1px solid #2a2a2a;
+  border-radius: 8px;
+  
+  white-space: nowrap;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-3px);
+    border-color: #FFFFFF;
+    
+    .skillName {
+      color: #FFFFFF;
+    }
+  }
+}
+
+.skillName {
+  color: #a0a0a0;
+  font-weight: 500;
+  font-size: 0.95rem;
+  letter-spacing: -0.5px;
+  transition: color 0.3s ease;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@include respond-to('md') {
+  .skillsSection {
+    padding: 4rem 0;
+  }
+
+  .skillsContent {
+    width: 80%;
+  }
+}

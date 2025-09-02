@@ -18,7 +18,7 @@ export const projectsData = [
 },
 {
   title: 'JobTrackr',
-  description: 'A modern job application tracking dashboard with a Kanban board interface, analytics, and responsive design. Track applications across different stages, view insights through charts, and manage your career search efficiently.',
+  description: 'A modern job application tracking dashboard with a Kanban board interface and analytics. Track applications across different stages and view insights through charts.',
   technologies: ['React (JS)', 'Tailwind CSS', 'Laravel', 'PostgreSQL', 'Chart.js', 'React DnD'],
   githubLink: 'https://github.com/alhassandafiri/jobtrackr',
   liveLink: 'http://localhost:5173/',
