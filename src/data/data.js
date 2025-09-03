@@ -11,7 +11,7 @@ export const projectsData = [
   title: ' ratewise.',
   description: 'A sleek, real-time currency converter and financial data visualizer. Instantly convert currencies, browse live exchange rates, and analyze historical data with interactive charts.',
   technologies: ['React.js', 'Laravel', 'Recharts', 'CSS Modules', 'Framer Motion'],
-  githubLink: 'https://github.com/alhassandafiri/ratewise-frontend',
+  githubLink: 'https://github.com/alhassandafiri/ratewise',
   liveLink: 'https://ratewise-exchange.vercel.app',
   progress: 100
 },
