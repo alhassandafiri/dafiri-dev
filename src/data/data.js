@@ -3,7 +3,7 @@ export const projectsData = [
   title: 'Portfolio Website',
   description: 'A clean, minimalist portfolio built with React and CSS Modules to showcase my skills and projects. Designed to be fully responsive and performant.',
   technologies: ['React.js', 'Vite', 'SCSS'],
-  githubLink: 'https://github.com/alhassandafiri/personal-portfolio-website',
+  githubLink: 'https://github.com/alhassandafiri/dafiri-dev',
   progress: 100
 },
 
@@ -11,16 +11,15 @@ export const projectsData = [
   title: ' ratewise.',
   description: 'A sleek, real-time currency converter and financial data visualizer. Instantly convert currencies, browse live exchange rates, and analyze historical data with interactive charts.',
   technologies: ['React.js', 'Laravel', 'Recharts', 'CSS Modules', 'Framer Motion'],
-  githubLink: 'https://github.com/alhassandafiri/currency-converter',
-  liveLink: 'http://localhost:5175/',
+  githubLink: 'https://github.com/alhassandafiri/ratewise-frontend',
+  liveLink: 'https://ratewise-exchange.vercel.app',
   progress: 100
 },
 {
   title: 'JobTrackr',
   description: 'A modern job application tracking dashboard with a Kanban board interface and analytics. Track applications across different stages and view insights through charts.',
   technologies: ['React.js', 'Tailwind', 'Laravel', 'PostgreSQL', 'Chart.js', 'React DnD'],
-  githubLink: 'https://github.com/alhassandafiri/jobtrackr',
-  liveLink: 'http://localhost:5173/',
+  githubLink: 'https://github.com/alhassandafiri/jobtrackr-frontend',
   progress: 25
 }
 
