@@ -6,7 +6,7 @@ function About() {
     <section className={styles.aboutSection}>
       <div className={styles.aboutContent}>
           <p className={styles.aboutDescription}>
-            I am an aspiring software engineer with a passion for building and designing fullstack web applications as well as solving complex problems. I am eager to learn more and am constantly looking for challenges.
+            I’m a Computer Science student and aspiring software engineer who loves turning ideas into working products. My focus is on fullstack web applications, from building scalable backends to crafting clean, intuitive interfaces. I thrive on tackling tricky problems, picking up new tools fast, and pushing myself with projects that stretch what I know.
           </p>
       </div>
     </section>
